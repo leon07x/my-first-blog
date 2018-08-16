@@ -1,4 +1,4 @@
-#!/home/LeonX/djangogirls/myvenv/bin/python2.7
+#!/home/LeonX/djangogirls/myvenv/bin/python3.6
 
 # -*- coding: utf-8 -*-
 import re
