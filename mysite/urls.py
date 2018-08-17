@@ -25,3 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
 ]
+
+from django.shortcuts import render
+def post_list(request):
+    return render(request, 'blog/post_list.html', {})
